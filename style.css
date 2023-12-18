@@ -1,0 +1,883 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);  
+}
+
+
+
+
+/*One*/
+.one {
+    display: flex;
+    gap: 30px;
+    background-image: linear-gradient(to left ,hsl(0, 0%, 16%), hsl(0, 0%, 82%));
+    padding: 20px;
+    width: 100%;
+    height: 28vh;
+    box-shadow: 0 20px 70px -15px rgb(0, 0, 0);
+}
+
+.one h1 {
+    width: 250px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: antiquewhite;
+    padding: 25px;
+    text-shadow: 5px 6px 10px #414141;
+}
+/*End of One*/
+
+
+
+
+
+
+/*TWO*/
+ .two {
+    display: flex;
+    margin-top: 3rem;
+    gap: 30px;
+    background-image: linear-gradient(to left ,hsl(0, 0%, 16%), hsl(0, 0%, 82%));
+    padding: 20px;
+    width: 100%;
+    height: 28vh;
+    box-shadow: 0 20px 30px -10px rgb(0, 0, 0);
+}
+
+.two h1 {
+    width: 250px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: antiquewhite;
+    padding: 25px;
+    text-shadow: 5px 6px 10px #414141;
+}
+/*End of TWO*/
+
+
+
+
+
+
+
+
+
+
+
+/*THREE*/
+ .three {
+    display: flex;
+    margin-top: 3rem;
+    gap: 30px;
+    background-image: linear-gradient(to left ,hsl(0, 0%, 16%), hsl(0, 0%, 82%));
+    padding: 20px;
+    width: 100%;
+    height: 28vh;
+    box-shadow: 0 20px 30px -10px rgb(0, 0, 0);
+}
+
+.three h1 {
+    width: 250px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: antiquewhite;
+    padding: 25px;
+    text-shadow: 5px 6px 10px #414141;
+}
+/*End of THREE*/
+
+
+
+
+
+
+h2 {
+    color: rgb(77, 77, 77);
+    width: 100%;
+    font-size: 3rem;
+    margin: auto;
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+/*ONE IMAGES*/
+.oneimg-one{
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/1img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: myani;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+
+}
+   
+
+
+
+@keyframes myani {
+    0% {background-image: url("./img/5img.jpg");}
+    35% {background-image: url("./img/6img.jpg");}
+    75% {background-image: url("./img/7img.jpg");}
+}
+
+
+.oneimg1 {
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/8img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: oneimg1;
+    animation-duration: 32s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+
+@keyframes oneimg1 {
+    0% {background-image: url("./img/9img.jpg");}
+    35% {background-image: url("./img/10img.jpg");}
+    75% {background-image: url("./img/11img.jpg");}
+}
+
+
+
+.oneimg2 {
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/12img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: oneimg2;
+    animation-duration: 46s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+
+@keyframes oneimg2 {
+    0% {background-image: url("./img/13img.jpg");}
+    35% {background-image: url("./img/14img.jpg");}
+    75% {background-image: url("./img/15img.jpg");}
+}
+
+
+
+.oneimg3 {
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/16img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: oneimg3;
+    animation-duration: 58s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+
+@keyframes oneimg3 {
+    0% {background-image: url("./img/17img.jpg");}
+    55% {background-image: url("./img/18img.jpg");}
+    55% {background-image: url("./img/19img.jpg");}
+}
+/*End of ONE IMAGES*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*TWO IMAGE*/
+.twoimag-one{
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/1animal.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: myanii;
+    animation-duration: 70s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+   
+
+
+
+@keyframes myanii {
+    0% {background-image: url("./img/2animal.jpg");}
+    35% {background-image: url("./img/3animal.jpg");}
+    75% {background-image: url("./img/4animal.jpg");}
+}
+
+
+.twoneimg1 {
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/5animal.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: oneimg11;
+    animation-duration: 82s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+
+@keyframes oneimg11 {
+    0% {background-image: url("./img/6animal.jpg");}
+    35% {background-image: url("./img/7animal.jpg");}
+    75% {background-image: url("./img/8animal.jpg");}
+}
+
+
+
+.twoneimg2 {
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/9animal.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: oneimg22;
+    animation-duration: 94s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+
+@keyframes oneimg22 {
+    0% {background-image: url("./img/10animal.jpg");}
+    35% {background-image: url("./img/11animal.jpg");}
+    75% {background-image: url("./img/12animal.jpg");}
+}
+
+
+
+.twoneimg3 {
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/13animal.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: oneimg33;
+    animation-duration: 106s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+
+@keyframes oneimg33 {
+    0% {background-image: url("./img/14animal.jpg");}
+    55% {background-image: url("./img/15animal.jpg");}
+    55% {background-image: url("./img/16animal.jpg");}
+}
+/*End of TWO IMAGE*/
+
+
+
+
+
+
+
+/*THREE IMAGE*/
+.threeoneimg-one{
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/1city.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: myaniii;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+
+}
+   
+
+
+
+@keyframes myaniii {
+    0% {background-image: url("./img/2city.jpeg");}
+    35% {background-image: url("./img/3city.jpg");}
+    75% {background-image: url("./img/4city.jpg");}
+}
+
+
+.threeoneimg1 {
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/5city.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: oneimg111;
+    animation-duration: 32s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+
+@keyframes oneimg111 {
+    0% {background-image: url("./img/6city.jpeg");}
+    35% {background-image: url("./img/7city.jpg");}
+    75% {background-image: url("./img/8city.jpg");}
+}
+
+
+
+.threeoneimg2 {
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/9city.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: oneimg222;
+    animation-duration: 46s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+
+@keyframes oneimg222 {
+    0% {background-image: url("./img/10city.jpg");}
+    35% {background-image: url("./img/11city.jpg");}
+    75% {background-image: url("./img/12city.jpg");}
+}
+
+
+
+.threeoneimg3 {
+    width: 400px;
+    height: 200px;
+    background-image: url("./img/13city.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: oneimg333;
+    animation-duration: 58s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+
+@keyframes oneimg333 {
+    0% {background-image: url("./img/14city.jpg");}
+    55% {background-image: url("./img/15city.jpg");}
+    55% {background-image: url("./img/16city.jpg");}
+}
+/*End of THREE IMAGE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 1900px) {
+
+    .one {
+        height: 28vh; 
+    }
+    
+    .two {
+        height: 28vh;   
+    }
+    .three {
+        height: 28vh;   
+    }
+   
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 655px) {
+    
+   h2 {
+    width: 300px;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+   }
+   
+       
+ }
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 1420px) {
+    
+    .oneimg-one {
+        width: 400px;
+        height: 150px;
+     }
+
+     .oneimg1 {
+        width: 400px;
+        height: 150px;
+     }
+
+    .oneimg2 {
+        width: 400px;
+        height: 150px;
+    }
+
+    .oneimg3 {
+        width: 400px;
+        height: 150px;
+    }
+
+
+
+
+
+
+
+    .twoimag-one {
+        width: 400px;
+        height: 150px;
+     }
+
+     .twoneimg1 {
+        width: 400px;
+        height: 150px;
+     }
+
+    .twoneimg2 {
+        width: 400px;
+        height: 150px;
+    }
+
+    .twoneimg3 {
+        width: 400px;
+        height: 150px;
+    }
+
+
+
+
+
+    .threeoneimg-one {
+        width: 400px;
+        height: 150px;
+     }
+
+     .threeoneimg1 {
+        width: 400px;
+        height: 150px;
+     }
+
+    .threeoneimg2 {
+        width: 400px;
+        height: 150px;
+    }
+
+    .threeoneimg3 {
+        width: 400px;
+        height: 150px;
+    }
+}
+
+
+
+
+
+@media (max-width: 1120px) {
+    .one {
+        height: 18vh;
+    }
+
+    .two {
+        height: 18vh;
+    }
+
+    .three {
+        height: 18vh;
+    }
+
+    .oneimg-one {
+        width: 300px;
+        height: 100px;
+     }
+
+     .oneimg1 {
+        width: 300px;
+        height: 100px;
+     }
+
+    .oneimg2 {
+        width: 300px;
+        height: 100px;
+    }
+
+    .oneimg3 {
+        width: 300px;
+        height: 100px;
+    }
+
+
+
+
+
+    .twoimag-one {
+        width: 300px;
+        height: 100px;
+     }
+
+     .twoneimg1 {
+        width: 300px;
+        height: 100px;
+     }
+
+    .twoneimg2 {
+        width: 300px;
+        height: 100px;
+    }
+
+    .twoneimg3 {
+        width: 300px;
+        height: 100px;
+    }
+
+
+
+
+
+    .threeoneimg-one {
+        width: 300px;
+        height: 100px;
+     }
+
+     .threeoneimg1 {
+        width: 300px;
+        height: 100px;
+     }
+
+    .threeoneimg2 {
+        width: 300px;
+        height: 100px;
+    }
+
+    .threeoneimg3 {
+        width: 300px;
+        height: 100px;
+    }
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    
+    .one {
+       display: inline-block;
+       height: 80vh;
+    }
+
+    .two {
+        display: inline-block;
+        height: 80vh;
+     }
+
+     .three {
+        display: inline-block;
+        height: 80vh;
+     }
+
+    .oneimg-one {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+     }
+
+     .oneimg1 {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+     }
+
+    .oneimg2 {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+    .oneimg3 {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+    }
+ 
+
+
+
+
+    .twoimag-one {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+     }
+
+     .twoneimg1 {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+     }
+
+    .twoneimg2 {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+    .twoneimg3 {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+
+
+
+
+    .threeoneimg-one {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+     }
+
+     .threeoneimg1 {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+     }
+
+    .threeoneimg2 {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+    .threeoneimg3 {
+        width: 200px;
+        height: 100px;
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+ @media (max-width: 600px) {
+
+
+
+    .oneimg-one {
+        margin-top: 2rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+     }
+
+     .oneimg1 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+     }
+
+    .oneimg2 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+    }
+
+    .oneimg3 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+    }
+     
+
+
+
+
+
+    .twoimag-one {
+        margin-top: 2rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+     }
+
+     .twoneimg1 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+     }
+
+    .twoneimg2 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+    }
+
+    .twoneimg3 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+    }
+
+
+
+
+
+    .threeoneimg-one {
+        margin-top: 2rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+     }
+
+     .threeoneimg1 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+     }
+
+    .threeoneimg2 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+    }
+
+    .threeoneimg3 {
+        margin-top: 1rem;
+        margin-left: 5rem;
+        width: 200px;
+        height: 100px;
+    }
+
+
+    
+
+
+
+
+
+
+     .one h1 {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+     }
+
+
+     .two h1 {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+     }
+
+
+     .three h1 {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+     }
+ }
+
+
+
+
+
+
+
+ 
+
